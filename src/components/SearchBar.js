@@ -28,7 +28,6 @@ const styles  = StyleSheet.create({
       
     },
     inputStyle:{
-     
         flex:1,
         fontSize:18
     },
