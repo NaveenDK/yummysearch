@@ -9,7 +9,7 @@ const SearchBar = ({term, onTermChange})=>{
             <Feather name="search" size={30} style={styles.iconStyle}/>
             <TextInput
             style={styles.inputStyle}
-             placeholder = "Search restaurant of your choice"
+             placeholder = "Search restaurant "
              value={term}
              onChangeText = {newTerm=> onTermChange(newTerm)}
             />
